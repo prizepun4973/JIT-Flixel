@@ -13,18 +13,18 @@ destroy：当切换到其他State或游戏关闭时的销毁操作
 （其他几个后面做）   
    
 ## 如何修改内置的State
-内置State会寻找对应其名字的lua文件，以下为清单：
+内置State会寻找模组的脚本文件夹下对应其名字的lua文件，以下为清单：
 | 名字 | 生效位置 |
 | :--- | :--- |
-| AchievementsMenuState | idk |
-| CreditsState | Text |
-| FlashingState | Text |
-| FreeplayState | Text |
-| LoadingState | Text |
-| MainMenuState | Text |
-| ModsMenuState | Text |
-| StoryMenuState | Text |
-| TitleState | Text |
+| AchievementsMenuState | 成就界面 |
+| CreditsState | 制作人员界面 |
+| FlashingState | 第一次游戏时的提示 |
+| FreeplayState | Freeplay界面 |
+| LoadingState | 加载歌曲 |
+| MainMenuState | 主菜单 |
+| ModsMenuState | 模组菜单 |
+| StoryMenuState | 故事模式界面 |
+| TitleState | 标题（press space or enter) |
    
 ## 如何进行State间的切换
 等我回家把东西做了   

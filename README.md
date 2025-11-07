@@ -1,4 +1,5 @@
 由于引擎当前完成度问题，教程文档可能会有较多漏洞，请谅解   
+   
 # State JIT教程文档 (beta)
 
 再开始前，你需要知道什么是State（FlxState）。如果你已经了解，你可以跳过下面的介绍。   
@@ -53,4 +54,7 @@ function onCreate()
     addLuaSprite('logo')
 end
 ```
- 
+[展示图]()   
+（好像还有好多东西没做）
+
+

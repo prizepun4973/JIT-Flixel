@@ -11,10 +11,23 @@ create：当切换到当前State的初始化行为
 update：游戏刷新时的行为   
 destroy：当切换到其他State或游戏关闭时的销毁操作   
 （其他几个后面做）   
+   
 ## 如何进行State间的切换
 等我回家把东西做了   
-
+   
 ## State编程
+以下为State JIT文件的基本架构：   
+   
 ```
+function onCreate()
+    --TODO
+end
 
+function onUpdate(elapsed)
+    --TODO
+end
+
+function onDestroy()
+    --TODO
+end
 ```

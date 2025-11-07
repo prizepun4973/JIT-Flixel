@@ -12,11 +12,22 @@ update：游戏刷新时的行为
 destroy：当切换到其他State或游戏关闭时的销毁操作   
 （其他几个后面做）   
    
+## 如何修改内置的State
+内置State会寻找对应其名字的lua文件，以下为清单：
+| 名字 | 生效位置 |
+| :--- | :--- |
+| AchievementsMenuState | idk |
+| CreditsState | Text |
+| FlashingState | Text |
+| FreeplayState | Text |
+| LoadingState | Text |
+| MainMenuState | Text |
+| ModsMenuState | Text |
+| StoryMenuState | Text |
+| TitleState | Text |
+   
 ## 如何进行State间的切换
 等我回家把东西做了   
-   
-## 如何进行内置State的修改
-不知道   
    
 ## State编程
 以下为State JIT文件的基本架构：   

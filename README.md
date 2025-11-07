@@ -1,4 +1,4 @@
-由于引擎当前进度问题，教程文档可能会有较多漏洞，请谅解   
+由于引擎当前完成度问题，教程文档可能会有较多漏洞，请谅解   
 # State JIT教程文档 (beta)
 
 再开始前，你需要知道什么是State（FlxState）。如果你已经了解，你可以跳过下面的介绍。   
@@ -14,6 +14,9 @@ destroy：当切换到其他State或游戏关闭时的销毁操作
    
 ## 如何进行State间的切换
 等我回家把东西做了   
+   
+## 如何进行内置State的修改
+不知道   
    
 ## State编程
 以下为State JIT文件的基本架构：   
@@ -31,3 +34,12 @@ function onDestroy()
     --TODO
 end
 ```
+   
+下面以创建一个Sprite最为简单的例子：
+```
+function onCreate()
+    makeLuaSprite('logo', 'logo', 0, 0)
+    addLuaSprite('logo')
+end
+```
+ 
